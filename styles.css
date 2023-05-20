@@ -1,8 +1,27 @@
 *{
-    background: gray;
+    background: beige;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+.heading{
+    max-width: 480px;
+    border: 4px solid gray;
+    margin: auto;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: tomato;
+
+}
+
+
+.body{
+    background-color: green;
 }
 img{
     height: 100px;
@@ -11,6 +30,33 @@ img{
 .container{
     max-width: 960px;
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(3, auto);
+    gap: 1rem;
+    margin: auto;
+    padding: 20px;
 
+} 
+.tiles div{
+    height: 120px;
+    border-radius: 4px;
+}
+.tiles{
+    position: relative;
+    cursor: pointer;
+
+}
+.front{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid gray;
+    background-color: teal;
+   /* transform: rotate(90deg);*/
+
+}
+.back{
+    background-color: tan;
 }
