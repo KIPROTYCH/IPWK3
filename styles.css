@@ -54,7 +54,7 @@ img{
     align-items: center;
     border: 4px solid gray;
     background-color: teal;
-   transform: rotatey(90deg);
+    transform: rotatey(90deg);
 
 }
 .back{
