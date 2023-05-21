@@ -23,6 +23,13 @@
   font-weight: 900;
   font-style: italic;
 }
+.heading button{
+  width: 100px;
+  height: 22px;
+  margin: 5px;
+  color: yellow;
+  font-size: 15px;
+}
 .score {
     margin-top: 10px;
     font-size: 20px;
