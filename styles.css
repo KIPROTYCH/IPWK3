@@ -15,7 +15,7 @@
     flex-direction: column;
     margin-top: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: brown;
+    color:yellow;
 
 }
 .heading p{
@@ -27,7 +27,7 @@
   width: 100px;
   height: 22px;
   margin: 5px;
-  color: yellow;
+  color: orange;
   font-size: 15px;
 }
 .score {
