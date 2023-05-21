@@ -1,10 +1,8 @@
 # APPLICATION NAME
 Tile matching Game Board.
 
-#### {Brief description of application}, {Date of current version}
-
 # By :
-Yegon
+Yegon- Professional Software Engineer.
 
 ## DESCRIPTION
 
