@@ -19,9 +19,11 @@
 
 }
 .moves{
-  color:tomato;
+  color:black;
+  font-weight: bold;
+  margin-top: 10px;
   font-size: 20px;
-  
+
 }
 .heading button{
 width: 100px;
@@ -37,6 +39,13 @@ font-size: 15px;
   font-style: italic;
   color: black;
 }
+.timer{
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: wheat;
+  margin-top: 5px;
+}
 
 
 .body{
@@ -46,8 +55,6 @@ img{
   height: 100px;
   width: 100px;
 }
-
-
 
 .container{
   max-width: 960px;
@@ -62,6 +69,8 @@ img{
   height: 120px;
   width: 200px;
   border-radius: 4px;
+  border-radius: 1rem;
+
 }
 
 .tiles{

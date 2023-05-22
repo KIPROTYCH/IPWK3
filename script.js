@@ -3,14 +3,18 @@ const front = document.querySelectorAll(".front")
 const container = document.querySelector('.container')
 const score = document.querySelector('.score span')
 const movesLabel = document.querySelector('.moves');
+let timerLabel = document.querySelector('.timer')
 let moves = 0;
+let seconds = 0;
+let timerId;
 
 
 
 /* create a function that rearrages the images randomly */
 
-shuffleImage()
-clicking()
+shuffleImage();
+clicking();
+startTimer();
 
 /*shuffling images */
 
@@ -78,3 +82,22 @@ function match(cardOne , cardTwo){
         }, 1000);
     }
 }
+
+function startTimer() {
+    timerId = setInterval(() => {
+      seconds++;
+      timerLabel.textContent = formatTime(seconds);
+    }, 1000);
+  }
+  
+  function formatTime(seconds) {
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = seconds % 60;
+    return `${padZero(minutes)}:${padZero(remainingSeconds)}`;
+  }
+  
+  function padZero(num) {
+    return num.toString().padStart(2, '0');
+  }
+
+  
