@@ -16,6 +16,7 @@ This is a website about a a tile matching game where the objective of the game i
 * A functional Laptop
 * Good internet connection.
 * Time.
+* Github
 
 ## Known Bugs.
 So far I haven't experienced any bugs.
@@ -25,7 +26,7 @@ So far I haven't experienced any bugs.
 * Vanilla CSS
 * Javascript
 * VS Code.
-* 
+* Github
 
 ## Support and contact details
 
