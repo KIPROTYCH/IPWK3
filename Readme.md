@@ -2,7 +2,7 @@
 Tile matching Game Board.
 
 # By :
-Yegon- Professional Software Engineer.
+Yegon Kiprotich Gideon- Professional Software Engineer.
 
 ## DESCRIPTION
 
