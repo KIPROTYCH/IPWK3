@@ -4,6 +4,9 @@ Tile matching Game Board.
 # By :
 Yegon Kiprotich Gideon- Professional Software Engineer.
 
+## Link to my live Page
+kiprotych.github.io/IPWK3/
+
 ## DESCRIPTION
 
 This is a website about a a tile matching game where the objective of the game is to match tiles of the same type in the shortest time possible in order to win the game.
