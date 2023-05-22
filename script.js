@@ -2,7 +2,8 @@ const card = document.querySelectorAll(".tiles")
 const front = document.querySelectorAll(".front")
 const container = document.querySelector('.container')
 const score = document.querySelector('.score span')
-
+const movesLabel = document.querySelector('.moves');
+let moves = 0;
 
 
 
@@ -10,6 +11,9 @@ const score = document.querySelector('.score span')
 
 shuffleImage()
 clicking()
+
+/*shuffling images */
+
 function shuffleImage() {
     card.forEach(c=>{
         const num = [...Array(card.length).keys()]
@@ -22,8 +26,6 @@ function shuffleImage() {
 function clicking(){
 
     for(let i =0; i<card.length; i++){
-
-
         front[i].classList.add('show')
 
         setInterval(() => {
@@ -44,7 +46,9 @@ function clicking(){
                     container.style.pointerEvents ='all'
                 }, 1000);
  
-                match(filppedCard[0] , filppedCard[1])
+                match(filppedCard[0] , filppedCard[1]);
+                moves++;
+                movesLabel.textContent = moves;
             }
         })
     }
