@@ -6,7 +6,6 @@ const score = document.querySelector('.score span')
 
 
 
-
 /* create a function that rearrages the images randomly */
 
 shuffleImage()
