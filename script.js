@@ -99,5 +99,3 @@ function startTimer() {
   function padZero(num) {
     return num.toString().padStart(2, '0');
   }
-
-  
